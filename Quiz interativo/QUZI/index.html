@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Seu Quiz Interativo</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="text-align: center;">Quiz sobre Filosofos</h1>
+        <div id="question-container">
+            <p id="question">Pergunta vai aqui?</p>
+            <button class="option" onclick="checkAnswer(1)">Opção 1</button>
+            <button class="option" onclick="checkAnswer(2)">Opção 2</button>
+            <button class="option" onclick="checkAnswer(3)">Opção 3</button>
+            <button class="option" onclick="checkAnswer(4)">Opção 4</button>
+        </div>
+        <div id="result-container">
+            <p id="result">Resultado vai aqui.</p>
+            <button onclick="resetQuiz()">Recomeçar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
